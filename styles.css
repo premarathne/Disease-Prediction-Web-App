@@ -1,0 +1,56 @@
+.banner_area{
+	background-image: url("3.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.banner_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+
+}
+
+.banner_text h1{
+	font-family: ballo;
+	margin: 0;
+	font-size: 55px;
+	color: gray;
+}
+
+.banner_text p{
+	font-family: poppins;
+	margin: 0;
+	font-size: 22px;
+	color: white;
+}
+
+.banner_text a{
+	font-family: poppins;
+	border:1px solid #fff;
+	font-size: 22px;
+	padding: 10px 10px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+
+.banner_text a:hover{
+border-color: yellow;
+background-color: yellow;
+transition: .9s;
+color: #262626;
+
+
+}
