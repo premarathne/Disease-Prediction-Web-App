@@ -99,7 +99,7 @@ def ques(lists):
 	#print(lists)
 	#for i in range(0,len(data)):
 
-	return render_template('find_doctor.html',list=list)
+	return render_template('ask_question.html',list=list)
 	#if request.method=='POST':
 		#for i in range(0,len(data)):
 		#return redirect(url_for('ques',items=data[0]))
